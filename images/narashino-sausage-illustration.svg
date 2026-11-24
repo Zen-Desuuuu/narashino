@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8eff9" />
+      <stop offset="1" stop-color="#e6d9ef" />
+    </linearGradient>
+    <linearGradient id="plate" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#f8edf5" />
+      <stop offset="1" stop-color="#e6d9ef" />
+    </linearGradient>
+    <linearGradient id="sausage" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#d89a70" />
+      <stop offset="0.42" stop-color="#b96749" />
+      <stop offset="1" stop-color="#8f4938" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="13" />
+      <feOffset dy="13" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="960" height="720" fill="url(#background)" />
+  <circle cx="783" cy="142" r="95" fill="#e8bfd7" opacity=".48" />
+  <path d="M0 575c160-67 297-53 455 13s310 74 505-5v137H0Z" fill="#d8cbe4" opacity=".72" />
+  <ellipse cx="480" cy="387" rx="340" ry="236" fill="#cfc1d8" opacity=".35" />
+  <ellipse cx="480" cy="366" rx="333" ry="226" fill="url(#plate)" stroke="#f1e5f2" stroke-width="13" />
+  <ellipse cx="480" cy="366" rx="300" ry="194" fill="none" stroke="#d7c8e0" stroke-width="3" />
+  <g fill="#9883ad">
+    <path d="M173 398c-5-42 12-71 48-86 2 38-14 66-48 86Z" />
+    <path d="M181 402c-38-25-47-57-29-94 29 24 39 55 29 94Z" />
+    <path d="M190 402c2-42 24-67 64-73-7 38-27 63-64 73Z" />
+    <path d="M750 448c-2-37 14-63 49-76 2 33-14 58-49 76Z" />
+    <path d="M755 449c-32-22-39-51-23-83 25 21 33 49 23 83Z" />
+  </g>
+  <g transform="rotate(-12 480 360)" filter="url(#shadow)">
+    <rect x="236" y="256" width="500" height="126" rx="63" fill="url(#sausage)" stroke="#8f4938" stroke-width="8" />
+    <path d="M274 270c-22 28-22 68 0 96M700 270c22 28 22 68 0 96" fill="none" stroke="#e8b18a" stroke-width="7" opacity=".75" />
+    <path d="M334 275c38-12 73-15 105-9M508 268c36-5 72-1 107 11" fill="none" stroke="#f1c49b" stroke-linecap="round" stroke-width="8" opacity=".7" />
+    <rect x="302" y="398" width="415" height="103" rx="52" fill="url(#sausage)" stroke="#8f4938" stroke-width="8" />
+    <path d="M335 410c-18 25-18 55 0 78M684 410c18 25 18 55 0 78" fill="none" stroke="#e8b18a" stroke-width="6" opacity=".72" />
+    <path d="M395 415c31-9 58-10 84-5M548 408c31-3 59 1 88 11" fill="none" stroke="#f1c49b" stroke-linecap="round" stroke-width="7" opacity=".68" />
+    <g transform="translate(692 492) rotate(12)">
+      <ellipse cx="0" cy="0" rx="57" ry="27" fill="#a45b43" />
+      <ellipse cx="0" cy="0" rx="48" ry="20" fill="#d99569" />
+      <ellipse cx="0" cy="0" rx="38" ry="14" fill="#a85843" />
+      <path d="M-25-4c12-8 28-9 42-3" fill="none" stroke="#eab18a" stroke-width="4" stroke-linecap="round" />
+    </g>
+  </g>
+  <g fill="#cf91b4" opacity=".72">
+    <circle cx="320" cy="213" r="5" />
+    <circle cx="647" cy="209" r="4" />
+    <circle cx="796" cy="523" r="5" />
+    <circle cx="229" cy="524" r="4" />
+  </g>
+</svg>
